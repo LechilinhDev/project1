@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Kien Food - Hải sản tươi sống</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-bar"><a href="#"><img class="width-100 lazyloaded" data-src="#" src="./top-bar.webp"
+                    alt="top bar"></a></div>
+        <div class="header__bottom">
+            <div class="container container-fluid-sm">
+                <div class="row align-items-center">
+                    <div class="header__bottom--logo col-xxl-20th col-xl-20th col-lg-3 col-md-12 col-sm-12 col-12">
+                        <div class="header__bottom--mobile--menu d-lg-none" id="trigger_click_mobile"><img
+                                src="https://file.hstatic.net/1000030244/file/menu_01-02_637811aeb1d54ae2a612bc4bdb621522.png"
+                                alt="menu mobile"></div>
+                        <div class="logo"><a href="/"><img class="heightwidth-auto" alt="DAOHAISAN" width="200"
+                                    height="100" src="//theme.hstatic.net/1000030244/1000943806/14/logo.png?v=1273"></a>
+                        </div>
+                        <div class="header__bottom--mobile--cart d-lg-none"><a href="/cart"><img
+                                    class="heightwidth-auto" width="14" height="14"
+                                    src="//theme.hstatic.net/1000030244/1000943806/14/cart.png?v=1273"
+                                    alt="gio hang"><span class="cart__count">0</span></a></div>
+                    </div>
+                    <div
+                        class="visible-md visible-lg visible-sm header__bottom--search col-xxl-3266th col-xl-30th col-lg-4 col-md-12 col-sm-12 col-12">
+                        <div class="wpo-wrapper-search">
+                            <form class="ultimate-search" action="/search" autocomplete="off">
+                                <input type="hidden" name="type" value="product">
+                                <input type="text" name="q" autocomplete="off" required=""
+                                    class="input__search form-control" id="inputSearchAuto"
+                                    placeholder="Tìm kiếm trên DAOHAISAN">
+                                <button class="btn__search" type="submit"><svg aria-hidden="true" width="14" height="14"
+                                        title="">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dhs_icon_search">
+                                        </use>
+                                    </svg></button>
+                            </form>
+                            <div id="ajaxSearchResults" class="smart-search-wrapper ajaxSearchResults"
+                                style="display: none">
+                                <div class="resultsContent"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="d-none d-lg-flex col-xl-4 col-lg-3 col-md-12 col-sm-12 col-12 header__bottom--hotline no-padding-xl">
+                        <div class="hotline_number"><a class="hotline-link" href="tel:19000098">1900 0098</a>
+                            <p>(8h-21h từ T2-Chủ Nhật)</p>
+                        </div>
+                        <p class="hotline_shipping"><img class="width-100" width="100" height="50"
+                                src="https://file.hstatic.net/1000030244/file/giaohang2h_6984c4a90861405ab3c35f77edb41578.png"
+                                alt="2h delivery"></p>
+                    </div>
+                    <div
+                        class="d-none d-lg-flex header__bottom--cart--user col-xxl-14th col-xl-2 col-lg-2 col-md-2 col-sm-3 col-3">
+                        <div class="header__bottom--user">
+                            <svg class="header__bottom--user--icon" aria-hidden="true" width="22" height="22" title="">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#dhs_icon_user"></use>
+                            </svg>
+                            <div class="header__bottom--user--text"><span>Đăng nhập</span><span>Tài khoản</span></div>
+                            <div class="header__bottom--user--wrap">
+                                <ul>
+                                    <li><a href="/account/login">Đăng nhập</a></li>
+                                    <li><a href="/account/register">Đăng ký</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__bottom--cart"><a href="/cart"><img class=" width-100" width="30" height="30"
+                                    src="//theme.hstatic.net/1000030244/1000943806/14/cart.png?v=1273"
+                                    alt="gio hang"><span class="cart__count">0</span></a>
+                            <div class="cart__item original">
+                                <div class="cart__item--image"></div>
+                                <div class="cart__item--info">
+                                    <p class="cart__item--title"></p><span class="cart__item--price"></span><span
+                                        class="cart__item--qty"></span><span class="cart__item--remove"></span>
+                                </div>
+                            </div>
+                            <div class="cart__box">
+                                <div class="cart__empty">Giỏ hàng của bạn vẫn chưa có sản phẩm nào.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>

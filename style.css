@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    color: #fff;
+    width: 100%;
+}
+.top-bar img {
+    width: 100%;
+}
+.header__bottom {
+    background: #2e9ed5;
+    padding: 1.42857em 0;
+    color: #ffffff;
+}
+.row{
+    display: flex;
+}
